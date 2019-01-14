@@ -2,18 +2,76 @@
 <html>
 
 	<head>
-	<title> Наша перва страница</title>	
+	<title> Дмитрий Алексеев - оффициальный сайт</title>	
 		<style type="text/css">
-			h1{
-			color: red;
-			background-color: :blue;
-			font-size: 50px;
-			}
+		html,body{
+			padding: 0;
+			margin: 0;
+			font-family:  Arial;
+		
+		}
+		#layout{
+
+			
+			width: 1260px;
+			margin: 30px auto;
+			padding: 0 30px;
+		}
+		#phone{
+			float: right;
+			font-weight: bold;
+			font-size: 24px;
+		}
+		button{
+			float: right;
+			border: 1px solid rgb(252,85,124);
+			color: rgb(252,85,124);
+			padding: 10px 40px 10px;
+			margin-left: 30px;
+		background-color: white;
+		}
+		a{
+color: black;
+text-decoration: none;
+margin-right: 30px;
+font-size: 14px;
+		}
+		a:hover{
+
+			border-bottom: 1px dotted rgb(252,85,124);
+			color: rgb(252,85,124);
+		}
+		.flex{
+
+			background-color: red;
+			display: flexl
+		}
+		.flex div{
+
+			width: 30px;
+			height: 30px;
+			color: blue;
+		}
 		</style>
 	</head>
 
 	<body>
-		<h1 align="center" title="Всплывающий текст">TEXT</h1>
+		<div id="layout"> 
+			<header>
+				<a href="#">Услуги</a>
+				<a href="#">Портфолио</a>
+				<a href="#">Стоимость</a>
+				<button id="button">Заказать званок</button> 
+				<span id="phone"> +7 800 555 35 35</span>
+				
+			</header>
+		<div class="flex">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		</div>
 	</body>
 
 </html>
