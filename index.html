@@ -10,6 +10,7 @@
 			font-family:  Arial;
 		
 		}
+			
 		#layout{
 
 			
@@ -23,12 +24,30 @@
 			font-size: 24px;
 		}
 		button{
-			float: right;
+			
 			border: 1px solid rgb(252,85,124);
 			color: rgb(252,85,124);
 			padding: 10px 40px 10px;
 			margin-left: 30px;
-		background-color: white;
+			background-color: #FBFBFB;
+		}
+		#contact-container{
+
+float: right;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+		height: 100%
+		}
+		.fixed-widht{
+width: 1260px;
+margin: 0 auto;
+padding: 0 30px;
+height: 100%;
+		}
+		header{
+			background-color: #FBFBFB;
+			height: 100px;
 		}
 		a{
 color: black;
@@ -41,36 +60,36 @@ font-size: 14px;
 			border-bottom: 1px dotted rgb(252,85,124);
 			color: rgb(252,85,124);
 		}
-		.flex{
 
-			background-color: red;
-			display: flexl
-		}
-		.flex div{
-
-			width: 30px;
-			height: 30px;
-			color: blue;
-		}
+	nav{
+		height: 100%;
+		float: left;
+		display: flex;
+		align-items: center;
+		
+	}
+		
 		</style>
 	</head>
 
 	<body>
-		<div id="layout"> 
+		<div class="fixed-widht">
 			<header>
+				<nav>
 				<a href="#">Услуги</a>
 				<a href="#">Портфолио</a>
 				<a href="#">Стоимость</a>
-				<button id="button">Заказать званок</button> 
-				<span id="phone"> +7 800 555 35 35</span>
-				
+				</nav>
+				<div id="contact-container">
+					<span id="phone"> +7 800 555 35 35</span>
+					<button id="button">Заказать званок</button> 
+				</div>
+		</div>
 			</header>
-		<div class="flex">
-			<div></div>
-			<div></div>
 			
-		</div>
-		</div>
+		
+		
+		
 	</body>
 
 </html>
