@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<title> РђСЃР°РґРѕРІ РђСЂС‚С‘Рј - РѕС„С„РёС†РёР°Р»СЊРЅС‹Р№ СЃР°Р№С‚</title>	
+	<title> Асадов Артём - оффициальный сайт</title>	
 	<style type="text/css">
 	html,body{
 		padding: 0;
@@ -39,15 +39,12 @@
 		justify-content: flex-end;
 		align-items: center;
 		height: 100%
-		
-
 	}
 	.fixed-widht{
 		width: 1260px;
 		margin: 0 auto;
 		padding: 0 30px;
 		height: 100%;
-
 	}
 	header{
 		background-color: #FBFBFB;
@@ -68,21 +65,19 @@
 	nav{
 		height: 100%;
 		float: left;
-		padding-left: 30px;
 		display: flex;
 		align-items: center;
 		
 	}
 	#name{
 
-		
-		
+		margin-top:  180px;
+		padding-left: 30px;	
 		font-size: 73px;
 		font-weight: 700;
-
 	}
 	#direct{
-
+		padding-left: 30px;
 		font-size: 20px;
 		margin-top:  26px;
 		color: rgb(100,200,200);	
@@ -90,62 +85,49 @@
 
 	}
 	#picture{
-		height: 50%
-
-
-
-		
+		display: flex;;
+		float:right;
+		height: 50%;
 	}
-	.body{
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		width: 1200px;
+	#body{
+		width: 1260px;
 		margin: 0 auto;
 		padding: 0 30px;
 		height: 100%;
-		background: linear-gradient(to top, #DCDCDC, #ffffff);
-
-
-
 
 	}
-	
 
 </style>
 </head>
 
-<body >
+<body>
 	<div class="fixed-widht">
 		<header>
 			<nav>
-				<a href="#">РЈСЃР»СѓРіРё</a>
-				<a href="#">РџРѕСЂС‚С„РѕР»РёРѕ</a>
-				<a href="#">РЎС‚РѕРёРјРѕСЃС‚СЊ</a>
+				<a href="#">Услуги</a>
+				<a href="#">Портфолио</a>
+				<a href="#">Стоимость</a>
 			</nav>
 			<div id="contact-container">
 				<span id="phone"> +7 800 555 35 35</span>
-				<button id="button">Р—Р°РєР°Р·Р°С‚СЊ Р·РІР°РЅРѕРє</button> 
+				<button id="button">Заказать званок</button> 
 			</div>
 			
 		</div>
 		
-		<div class="body">
-
-			<div id="name">
-				РђСЃР°РґРѕРІ РђСЂС‚С‘Рј
-
-				<div id="direct">
-					Unity - СЂР°Р·СЂР°Р±РѕС‚С‡РёРє Рё ...
-				</div>
-			</div>
+		<div id="body">
 			<div id="picture">
-				<p><img src="images/self.jpg" width="auto" height="629px" alt="РџРёСЃСЊРјР° РјР°СЃС‚РµСЂР° РґР·РµРЅ"></p>
-			</div>
-
+			<p><img src="images/self.jpg" alt="Письма мастера дзен"></p>
 		</div>
-	</div>
-</header>
+			<div id="name">
+				Асадов Артём
+			</div>
+			<div id="direct">
+				Unity - разработчик и ...
+			</div>
+			
+		</div>
+	</header>
 
 
 
