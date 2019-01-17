@@ -1,155 +1,63 @@
+<!DOCTYPE>
 <!DOCTYPE html>
 <html>
-
 <head>
-	<meta charset="utf-8">
-	<title> Асадов Артём - оффициальный сайт</title>	
-	<style type="text/css">
-	html,body{
-		padding: 0;
-		margin: 0;
-		font-family:  Arial;
-		
-	}
-
-	#layout{
-
-
-		width: 1260px;
-		margin: 30px auto;
-		padding: 0 30px;
-	}
-	#phone{
-		float: right;
-		font-weight: bold;
-		font-size: 24px;
-	}
-	button{
-
-		border: 1px solid rgb(252,85,124);
-		color: rgb(252,85,124);
-		padding: 10px 40px 10px;
-		margin-left: 30px;
-		background-color: #FBFBFB;
-	}
-	#contact-container{
-
-		float: right;
-		display: flex;
-		justify-content: flex-end;
-		align-items: center;
-		height: 100%
-		
-
-	}
-	.fixed-widht{
-		width: 1260px;
-		margin: 0 auto;
-		padding: 0 30px;
-		height: 100%;
-
-	}
-	header{
-		background-color: #FBFBFB;
-		height: 100px;
-	}
-	a{
-		color: black;
-		text-decoration: none;
-		margin-right: 30px;
-		font-size: 14px;
-	}
-	a:hover{
-
-		border-bottom: 1px dotted rgb(252,85,124);
-		color: rgb(252,85,124);
-	}
-
-	nav{
-		height: 100%;
-		float: left;
-		padding-left: 30px;
-		display: flex;
-		align-items: center;
-		
-	}
-	#name{
-
-		
-		
-		font-size: 73px;
-		font-weight: 700;
-
-	}
-	#direct{
-
-		font-size: 20px;
-		margin-top:  26px;
-		color: rgb(100,200,200);	
-		
-
-	}
-	#picture{
-		height: 50%
-
-
-
-		
-	}
-	.body{
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		width: 1200px;
-		margin: 0 auto;
-		padding: 0 30px;
-		height: 100%;
-		background: linear-gradient(to top, #DCDCDC, #ffffff);
-
-
-
-
-	}
+	<link href="css/nav.css" rel="stylesheet"> 
+	<link href="css/block_1.css" rel="stylesheet">
 	
-
-</style>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>
+		Резюме
+	</title>
 </head>
-
-<body >
-	<div class="fixed-widht">
-		<header>
-			<nav>
-				<a href="#">Услуги</a>
-				<a href="#">Портфолио</a>
-				<a href="#">Стоимость</a>
-			</nav>
-			<div id="contact-container">
-				<span id="phone"> +7 800 555 35 35</span>
-				<button id="button">Заказать званок</button> 
+<body>
+	<!--Шапка сайта-->
+	<header>
+		<!--Контейнер навигации-->
+		<nav class="nav-flex-container">
+			<!--Левая часть меню-->
+			<div class="left-menu-flex-container">
+				<!--Ссылки меню-->
+				<a href="" class="href-left-menu">menu_1</a>
+				<a href="" class="href-left-menu">menu_2</a>
+				<a href="" class="href-left-menu">menu_3</a>
+				
 			</div>
-			
-		</div>
-		
-		<div class="body">
-
-			<div id="name">
-				Асадов Артём
-
-				<div id="direct">
-					Unity - разработчик и ...
+			<!--Правая часть меню-->
+			<div class="right-menu-flex-container">
+				<!--Почта-->
+				<div>
+					<a href="mailto:kekc33rus@gmail.com" class="href-mail">KEKC33RUS@GMAIL.COM</a>
+				</div>
+				<!--Телефон-->
+				<div class="number">
+					+7-900-478-06-55
 				</div>
 			</div>
-			<div id="picture">
-				<p><img src="images/self.jpg" width="auto" height="629px" alt="Письма мастера дзен"></p>
+		</nav>
+	</header>
+	<!--Block_1-->
+	<div class="block_1-flex-container">
+		<!--1 блок-->
+		<div class="block_1">
+			<div class="block_1_1">
+				Артем Асадов
 			</div>
-
+			<div class="block_1_2">
+				HTML::CSS::C#::Unity::SQL
+			</div>
+			<button class="block_1_3">
+				Узнать больше
+			</button>
 		</div>
+		<div class="block_2">
+			<img src="images/self.jpg" alt="Разработчик" class="picture"> 
+		</div>	
 	</div>
-</header>
-
-
-
-
+	<!--flex-wrap-->
+	<!--Низ-->
+	<footer>
+		
+	</footer>
 </body>
-
 </html>
