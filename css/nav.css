@@ -1,7 +1,10 @@
-.nav-flex-container{
-	margin: 0px auto;
+html{
 	font-family:  Arial;
 	color: black;
+}
+.nav-flex-container{
+	margin: 0px auto;
+	
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
